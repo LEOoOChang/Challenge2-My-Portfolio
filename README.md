@@ -2,7 +2,8 @@
 
 ## Description
 
-As a motivated software developer who is willing to devote himself to the idea that "Learning for life with growth mindset", I would like to introduce myself, showcase my resent work, and to express the strong belief of mine to employers that there will always be solutions to problems. All it takes is learning and persisting. I can code!
+As a motivated software developer who is willing to devote himself to the idea that "Learning for life with growth mindset", I would like to introduce myself, showcase my resent work, and to express the strong belief of mine to employers that there will always be solutions to problems. All it takes is learning and persisting. 
+I can code!
 
 ## Screenshot
 
@@ -12,4 +13,3 @@ As a motivated software developer who is willing to devote himself to the idea t
 ## Link
 
 http://127.0.0.1:3004/Challenge2-My-Portfolio/index.html#my-contact
-
