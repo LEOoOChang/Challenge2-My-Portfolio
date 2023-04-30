@@ -1,0 +1,137 @@
+/* used to declare global CSS variables */
+:root {
+    --lightblue:#add8e6;
+    --green: #008000;
+    --lightgoldenrodyellow: #fafad2;
+    --darksalmon:#e9967a;
+    --bisque: #ffe4c4;
+}    
+
+body {
+    background-color: var(--lightgoldenrodyellow);
+    /* when designing colors, use css variables to avoid multiple copying and pasting same color in different areas */
+    color: var(--green);
+    padding: 30px;
+    margin:  50px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.box {
+    /* to make flex container display inline */
+    display: inline-flex;
+}
+
+.box-port {
+    padding-bottom: 0.77rem;
+    padding-right: 16rem;
+    background-color: rgb(226, 240, 190);
+}
+
+.box-nav {
+    padding-left: 18rem;
+    background-color: var(--lightblue);
+}
+
+ul {
+    /* to remove the default list marks */
+    list-style-type: none;
+}
+
+li {
+    display: inline-flex;
+    padding: 0 30px;
+    font-size: 15px;
+    color: rgb(122, 22, 22);
+}
+
+.my-bio {
+    display: flex;
+    background-color: bisque;
+    color:var(--darksalmon);
+    /* used to reshape the element corners to round */
+    border-radius: 1.5rem;
+}
+
+img {
+    width: 180px;
+    /* defines logical inline end margin of the element as 2rem */
+    margin-inline-end: 2rem;
+    border-bottom-left-radius: 1.5rem;
+    border-top-left-radius: 1.5rem;
+    
+}
+
+#p-bio {
+    font-size: 1.5rem;
+}
+
+.row {
+    display: flex;
+    /* stacking lines when resizing to certain extent */
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.justify-content {
+    /* positioning items to the centre of the container */
+    justify-content: center;
+}
+
+.card-column {
+    flex: 0.6 0 80%;
+    padding: 0.5rem;
+    /* when resizing screen, use it to ensure columns don't jump in size, transitioning flex item smoothly with linear timing function */
+    transition: flex-basis 300ms linear;
+    margin-bottom: 1rem;
+}
+
+.project-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    min-height: 95%;
+    padding: 0.5rem;
+    background-color: var(--bisque);
+    color: var(--darksalmon);
+}
+
+h2 {
+    font-size: 2rem;
+    background-color: rgb(226, 240, 190);
+    padding: 10px 5px;
+}
+
+.app img {
+    width: 200px;
+    transition: width 0.5s;
+    border-radius: 1.5rem;
+}
+/* making the image hovered over look larger than others */
+.fir-app:hover {
+    width: 250px;
+}
+
+@media screen and (min-width: 775px) {
+    /* on tablets, set columns to only be 55% of the width and not grow */
+    .card-column {
+        flex: 0 0 55%;
+        max-width: 55%;
+    }
+    .card-column::content {
+        flex-grow: 0.8;
+    }
+}
+
+/* media query for larger screens */
+@media screen and (min-width: 100rem) {
+    header {
+        width: 80%;
+    }
+    .card-column {
+        flex: 0 0 35%;
+        max-width: 35%;
+    }
+}

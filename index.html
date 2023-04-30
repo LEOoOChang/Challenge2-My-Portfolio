@@ -10,21 +10,79 @@
 
 <body>
   <header>
-    <h1>My Portfolio</h1>
-    <nav>
+      <h1 class="box box-port">Portfolio</h1>
+      <nav class="box box-nav">
         <ul>
-            <li>My Bio</li>
-            <li>My Work</li>
-            <li>My Contact</li>
+            <li><a href="#Hello">My Bio</a></li>
+            <li><a href="#my-work">My Work</a></li>
+            <li><a href="#my-contact">My Contact</a></li>
         </ul>
-    </nav>
+      </nav>  
   </header>
 
   <main>
-    <section>
-        <img class="bio image" src=""
+        <h2>My Bio</h2>
+    <section  id="my-bio" class="my-bio">
+      <img src="./assets/IMG_4102.jpeg" alt="profile-image"/>
+      <div>
+        <p id="p-bio">Hello! My name is LIYAO CHANG. I am a SOFTWARE DEVELOPER.</p1>
+        <br>
+        <p>I believe that where there is a will, there is a way. With growth mindset, I am able to learn new things, either in a team or on my own, in order to become better in a daily basis. In work, my current specialty is HTML and CSS. In free time, I love music, sports, driving and camping etc. 
+        </p>
+        <br>
+        <p>My goal is to sharpen my craft in coding while enjoying and appreciating life in a balanced fashion.
+        </p>
+      </div> 
+    </section>
+    <section id="my-work" class="my-work">
+        <h2>My Work</h2>
+        <section class="row justify-content">
+            <div class="card-column">
+                <figure class="card project-card">
+                    <h3 class="card-header">Project 1</h3>
+                    <div class="card-body">
+                        <h4>Pre-work Study Guide</h4>
+                        <p>
+                            The project is built to put students in a better position to get started with the bootcamp courses. The goal is to be successful throughout the learning journey. It solves the problem that learners with zero coding background tend to face more challenges when learning completely new knowledge and skills. As far as I am concerned, I have learned, most importantly, developers' mindset that there will be solutions to any problems. Do not give up!
+                        </p>
+                    </div>
+                </figure>
+            </div>
+            <div class="app">
+                <a href="https://leooochang.github.io/prework-study-guide/">
+                    <img class="fir-app" src="./assets/sample.jpg" alt="prework-study-guide-project-image"/>
+                </a>
+            </div>
+            <div class="card-column">
+                <figure class="card project-card">
+                    <h3 class="card header">Project 2</h3>
+                    <div class="card-body">
+                        <h4>Horiseon Social Solutions</h4>
+                        <p>
+                            Need to maximize the exposure of your business to gather potential customers? Wish to control the image of your business to hold on to existing customers? Seeking to find the suitable media for your business to absorb more customers? Horiseon is here for you! 
+                        </p>
+                    </div>
+                </figure>
+            </div>
+            <div class="app">
+                <a href="https://leooochang.github.io/On-the-job-ticket-challenge1/">
+                    <img class="sec-app" src="./assets/sample.jpg" alt="challenge1-image"/>
+                </a>
+            </div>
+        
+        </section>
+    <section id="my-contact" class="my-contact">
+        <h2>My Contact</h2>
+        <ul>
+            <li><strong>Phone</strong> - <a href="647-970-2002">647-970-2002</a></li>
+            <li><strong>Email</strong> - <a href="changliyao19@gmail.com">changliyao19@gmail.com</a></li>
+            <li><strong>GitHub</strong> - <a href="https://github.com/LEOoOChang">https://github.com/LEOoOChang</a></li>
+        </ul>
     </section>
   </main>
-      
+
+  <footer>
+
+  </footer>
 </body>
 </html>
