@@ -115,7 +115,7 @@ h2 {
 }
 
 @media screen and (min-width: 775px) {
-    /* on tablets, set columns to only be 55% of the width and not grow */
+    /* on tablets, set columns to be onlu 55% of the width and not to grow */
     .card-column {
         flex: 0 0 55%;
         max-width: 55%;
@@ -125,7 +125,7 @@ h2 {
     }
 }
 
-/* media query for larger screens */
+/* media query applied to accommodate larger screens */
 @media screen and (min-width: 100rem) {
     header {
         width: 80%;
