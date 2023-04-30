@@ -7,8 +7,8 @@ I can code!
 
 ## Screenshot
 
-![screenshot](Challenge2-My-Portfolio/assets/Screenshot 2023-04-29 at 11.22.01 PM (2).png)
-![screenshot](Challenge2-My-Portfolio/assets/Screenshot 2023-04-29 at 11.22.01 PM.png)
+![screenshot](https://raw.githubusercontent.com/LEOoOChang/Challenge2-My-Portfolio/main/assets/Screenshot%202023-04-30%20at%2012.28.09%20AM.png)
+![screenshot](https://raw.githubusercontent.com/LEOoOChang/Challenge2-My-Portfolio/main/assets/Screenshot%202023-04-30%20at%2012.28.20%20AM.png)
 
 ## Link
 
